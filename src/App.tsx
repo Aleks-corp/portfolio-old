@@ -12,7 +12,7 @@ function App() {
         children: [
           {
             index: true,
-            lazy: () => import("./pages/MainPage"),
+            lazy: () => import("./pages/HomePage"),
           },
 
           {
