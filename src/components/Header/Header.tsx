@@ -7,7 +7,7 @@ export const Header = () => {
       <HeaderLogo className="header__logo accentGradient">Portfolio</HeaderLogo>
       <NavBar />
       <CVLink
-        to="../../../public/CV_Oleksandr_Haran_Junior_FullStack_Developer.pdf"
+        to="/CV_Oleksandr_Haran_Junior_FullStack_Developer.pdf"
         target="_blank"
       >
         My CV
