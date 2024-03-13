@@ -1,6 +1,6 @@
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/HomePage-DDoFnmyL.js","assets/HomePage-DxuqyZeN.css"]
+    __vite__mapDeps.viteFileDeps = []
   }
   return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
 }
@@ -82,7 +82,7 @@ Error generating stack: `+o.message+`
   overflow-x: hidden;
 
   &::-webkit-scrollbar {
-    background-color: #24282c;
+    background-color: var(--color-background-mute);
     width: 10px;
   }
   &::-webkit-scrollbar-thumb {
@@ -144,9 +144,9 @@ Error generating stack: `+o.message+`
   font-weight: 600;
   background-image: linear-gradient(
     135deg,
-    var(--color-text-accent),
-    #54b2bd,
-    #6287f3
+    var(--color-text-gr-start),
+    var(--color-text-gr-center),
+    var(--color-text-gr-end)
   );
   background-size: 100%;
   background-clip: text;
@@ -253,4 +253,4 @@ to {
 `;const v1=Ue.div`
   display: flex;
   justify-content: center;
-`,g1=()=>q.jsx(v1,{children:q.jsx(h1,{height:"80",width:"80",radius:"48",color:"#0B44CD",ariaLabel:"watch-loading",visible:!0})}),y1=()=>q.jsxs(Zy,{children:[q.jsx(i1,{}),q.jsx(qy,{children:q.jsx(R.Suspense,{fallback:q.jsx(g1,{}),children:q.jsx(L0,{})})})]});function w1(){const e=j0([{path:"/",element:q.jsx(y1,{}),children:[{index:!0,lazy:()=>Jc(()=>import("./HomePage-DDoFnmyL.js"),__vite__mapDeps([0,1]))},{path:"*",lazy:()=>Jc(()=>import("./ErrorPage-jabQCE4U.js"),__vite__mapDeps([]))}]}],{basename:"/portfolio"});return q.jsx(W0,{router:e})}va.createRoot(document.getElementById("root")).render(q.jsx(Un.StrictMode,{children:q.jsx(w1,{})}));export{Un as R,q as j,Ue as u};
+`,g1=()=>q.jsx(v1,{children:q.jsx(h1,{height:"80",width:"80",radius:"48",color:"#0B44CD",ariaLabel:"watch-loading",visible:!0})}),y1=()=>q.jsxs(Zy,{children:[q.jsx(i1,{}),q.jsx(qy,{children:q.jsx(R.Suspense,{fallback:q.jsx(g1,{}),children:q.jsx(L0,{})})})]});function w1(){const e=j0([{path:"/",element:q.jsx(y1,{}),children:[{index:!0,lazy:()=>Jc(()=>import("./HomePage-DTdBytGT.js"),__vite__mapDeps([]))},{path:"*",lazy:()=>Jc(()=>import("./ErrorPage-5CCTeQ34.js"),__vite__mapDeps([]))}]}],{basename:"/portfolio"});return q.jsx(W0,{router:e})}va.createRoot(document.getElementById("root")).render(q.jsx(Un.StrictMode,{children:q.jsx(w1,{})}));export{Un as R,q as j,Ue as u};
