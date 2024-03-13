@@ -6,11 +6,14 @@ export const LayoutContainer = styled.div`
   flex-direction: column;
   overflow: hidden;
   height: 100vh;
+  width: 100vw;
+  align-items: center;
 `;
 
 export const Main = styled.main`
   overflow: auto;
   overflow-x: hidden;
+  width: 100%;
 
   &::-webkit-scrollbar {
     background-color: var(--color-background-mute);

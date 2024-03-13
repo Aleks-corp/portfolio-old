@@ -8,11 +8,10 @@ export const Hero = styled.section`
 
 export const HeroContainer = styled.div`
   position: relative;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 160px 60px 250px;
+  padding: 160px 0 250px;
   text-align: center;
-  overflow: hidden;
 `;
 
 export const HeroText = styled.h2`
@@ -45,7 +44,7 @@ export const HeroTextAccent = styled.h2`
 export const SocialContainer = styled.div`
   position: absolute;
   bottom: 0;
-  left: 10px;
+  left: -15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +72,7 @@ export const SocialLine = styled.div`
 export const MailContainer = styled.div`
   position: absolute;
   bottom: 0;
-  right: 10px;
+  right: -15px;
   display: flex;
   flex-direction: column;
   align-items: center;

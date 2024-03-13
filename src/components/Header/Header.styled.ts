@@ -5,9 +5,10 @@ import { NavLink } from "react-router-dom";
 export const HeaderContainer = styled.header`
   display: flex;
   width: 100%;
+  max-width: 1200px;
   padding: 10px 0;
   border-bottom: 1px solid #212121;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 `;
 

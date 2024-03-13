@@ -4,15 +4,14 @@ import "../../assets/base.css";
 export const About = styled.section`
   object-fit: cover;
   overflow: hidden;
-
   background: var(--color-background);
 `;
 
 export const AboutContainer = styled.div`
   text-align: center;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 36px 60px 46px;
+  padding: 36px 0 46px;
 `;
 
 export const AboutTitle = styled.h2`
