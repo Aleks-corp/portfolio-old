@@ -77,9 +77,12 @@ Error generating stack: `+o.message+`
   flex-direction: column;
   overflow: hidden;
   height: 100vh;
+  width: 100vw;
+  align-items: center;
 `,qy=Ue.main`
   overflow: auto;
   overflow-x: hidden;
+  width: 100%;
 
   &::-webkit-scrollbar {
     background-color: var(--color-background-mute);
@@ -135,9 +138,10 @@ Error generating stack: `+o.message+`
 `,Nf=[{title:"Home",path:"/"},{title:"About",path:"/about"},{title:"Projects",path:"/projects"},{title:"Contacts",path:"/contacts"}],n1=()=>q.jsx("nav",{children:q.jsx(by,{children:Nf&&Nf.map((e,t)=>q.jsx(e1,{children:q.jsx(t1,{to:e.path,children:e.title})},t))})}),r1=Ue.header`
   display: flex;
   width: 100%;
+  max-width: 1200px;
   padding: 10px 0;
   border-bottom: 1px solid #212121;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 `,l1=Ue.p`
   font-size: 24px;
@@ -253,4 +257,4 @@ to {
 `;const v1=Ue.div`
   display: flex;
   justify-content: center;
-`,g1=()=>q.jsx(v1,{children:q.jsx(h1,{height:"80",width:"80",radius:"48",color:"#0B44CD",ariaLabel:"watch-loading",visible:!0})}),y1=()=>q.jsxs(Zy,{children:[q.jsx(i1,{}),q.jsx(qy,{children:q.jsx(R.Suspense,{fallback:q.jsx(g1,{}),children:q.jsx(L0,{})})})]});function w1(){const e=j0([{path:"/",element:q.jsx(y1,{}),children:[{index:!0,lazy:()=>Jc(()=>import("./HomePage-DTdBytGT.js"),__vite__mapDeps([]))},{path:"*",lazy:()=>Jc(()=>import("./ErrorPage-5CCTeQ34.js"),__vite__mapDeps([]))}]}],{basename:"/portfolio"});return q.jsx(W0,{router:e})}va.createRoot(document.getElementById("root")).render(q.jsx(Un.StrictMode,{children:q.jsx(w1,{})}));export{Un as R,q as j,Ue as u};
+`,g1=()=>q.jsx(v1,{children:q.jsx(h1,{height:"80",width:"80",radius:"48",color:"#0B44CD",ariaLabel:"watch-loading",visible:!0})}),y1=()=>q.jsxs(Zy,{children:[q.jsx(i1,{}),q.jsx(qy,{children:q.jsx(R.Suspense,{fallback:q.jsx(g1,{}),children:q.jsx(L0,{})})})]});function w1(){const e=j0([{path:"/",element:q.jsx(y1,{}),children:[{index:!0,lazy:()=>Jc(()=>import("./HomePage-ByijB0bG.js"),__vite__mapDeps([]))},{path:"*",lazy:()=>Jc(()=>import("./ErrorPage-DUItByY2.js"),__vite__mapDeps([]))}]}],{basename:"/portfolio"});return q.jsx(W0,{router:e})}va.createRoot(document.getElementById("root")).render(q.jsx(Un.StrictMode,{children:q.jsx(w1,{})}));export{Un as R,q as j,Ue as u};

@@ -1,13 +1,12 @@
-import{u as o,j as e,R as c}from"./main-TGnnjKLV.js";const y=o.section`
+import{u as o,j as e,R as c}from"./main-CcKv766q.js";const y=o.section`
   object-fit: cover;
   overflow: hidden;
-
   background: var(--color-background);
 `,L=o.div`
   text-align: center;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 36px 60px 46px;
+  padding: 36px 0 46px;
 `,H=o.h2`
   margin-bottom: 46px;
   font-size: 32px;
@@ -36,11 +35,10 @@ import{u as o,j as e,R as c}from"./main-TGnnjKLV.js";const y=o.section`
   overflow: hidden;
 `,U=o.div`
   position: relative;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 160px 60px 250px;
+  padding: 160px 0 250px;
   text-align: center;
-  overflow: hidden;
 `,w=o.h2`
   font-size: 54px;
   font-weight: 300;
@@ -65,7 +63,7 @@ import{u as o,j as e,R as c}from"./main-TGnnjKLV.js";const y=o.section`
 `,Q=o.div`
   position: absolute;
   bottom: 0;
-  left: 10px;
+  left: -15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,7 +85,7 @@ import{u as o,j as e,R as c}from"./main-TGnnjKLV.js";const y=o.section`
 `,Y=o.div`
   position: absolute;
   bottom: 0;
-  right: 10px;
+  right: -15px;
   display: flex;
   flex-direction: column;
   align-items: center;
