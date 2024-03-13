@@ -1,6 +1,6 @@
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/HomePage-CiSbBD5f.js","assets/HomePage-DxuqyZeN.css"]
+    __vite__mapDeps.viteFileDeps = ["assets/HomePage-DDoFnmyL.js","assets/HomePage-DxuqyZeN.css"]
   }
   return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
 }
@@ -168,7 +168,7 @@ Error generating stack: `+o.message+`
     color: var(--color-text-accent-hover);
     border-color: var(--color-text-accent-hover);
   }
-`,i1=()=>q.jsxs(r1,{children:[q.jsx(l1,{className:"header__logo accentGradient",children:"Portfolio"}),q.jsx(n1,{}),q.jsx(o1,{to:"../../../public/CV_Oleksandr_Haran_Junior_FullStack_Developer.pdf",target:"_blank",children:"My CV"})]}),a1="#4fa94d",u1={"aria-busy":!0,role:"progressbar"},s1=Ue.div`
+`,i1=()=>q.jsxs(r1,{children:[q.jsx(l1,{className:"header__logo accentGradient",children:"Portfolio"}),q.jsx(n1,{}),q.jsx(o1,{to:"/CV_Oleksandr_Haran_Junior_FullStack_Developer.pdf",target:"_blank",children:"My CV"})]}),a1="#4fa94d",u1={"aria-busy":!0,role:"progressbar"},s1=Ue.div`
   display: ${e=>e.$visible?"flex":"none"};
 `,c1="http://www.w3.org/2000/svg",wt=242.776657104492,f1=1.6,d1=Ns`
 12.5% {
@@ -253,4 +253,4 @@ to {
 `;const v1=Ue.div`
   display: flex;
   justify-content: center;
-`,g1=()=>q.jsx(v1,{children:q.jsx(h1,{height:"80",width:"80",radius:"48",color:"#0B44CD",ariaLabel:"watch-loading",visible:!0})}),y1=()=>q.jsxs(Zy,{children:[q.jsx(i1,{}),q.jsx(qy,{children:q.jsx(R.Suspense,{fallback:q.jsx(g1,{}),children:q.jsx(L0,{})})})]});function w1(){const e=j0([{path:"/",element:q.jsx(y1,{}),children:[{index:!0,lazy:()=>Jc(()=>import("./HomePage-CiSbBD5f.js"),__vite__mapDeps([0,1]))},{path:"*",lazy:()=>Jc(()=>import("./ErrorPage-7hm7sjcX.js"),__vite__mapDeps([]))}]}],{basename:"/portfolio"});return q.jsx(W0,{router:e})}va.createRoot(document.getElementById("root")).render(q.jsx(Un.StrictMode,{children:q.jsx(w1,{})}));export{Un as R,q as j,Ue as u};
+`,g1=()=>q.jsx(v1,{children:q.jsx(h1,{height:"80",width:"80",radius:"48",color:"#0B44CD",ariaLabel:"watch-loading",visible:!0})}),y1=()=>q.jsxs(Zy,{children:[q.jsx(i1,{}),q.jsx(qy,{children:q.jsx(R.Suspense,{fallback:q.jsx(g1,{}),children:q.jsx(L0,{})})})]});function w1(){const e=j0([{path:"/",element:q.jsx(y1,{}),children:[{index:!0,lazy:()=>Jc(()=>import("./HomePage-DDoFnmyL.js"),__vite__mapDeps([0,1]))},{path:"*",lazy:()=>Jc(()=>import("./ErrorPage-jabQCE4U.js"),__vite__mapDeps([]))}]}],{basename:"/portfolio"});return q.jsx(W0,{router:e})}va.createRoot(document.getElementById("root")).render(q.jsx(Un.StrictMode,{children:q.jsx(w1,{})}));export{Un as R,q as j,Ue as u};
