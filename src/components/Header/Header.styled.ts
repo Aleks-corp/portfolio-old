@@ -16,9 +16,9 @@ export const HeaderLogo = styled.p`
   font-weight: 600;
   background-image: linear-gradient(
     135deg,
-    var(--color-text-accent),
-    #54b2bd,
-    #6287f3
+    var(--color-text-gr-start),
+    var(--color-text-gr-center),
+    var(--color-text-gr-end)
   );
   background-size: 100%;
   background-clip: text;

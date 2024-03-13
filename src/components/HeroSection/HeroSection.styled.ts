@@ -30,9 +30,9 @@ export const HeroTextAccent = styled.h2`
   font-weight: 600;
   background-image: linear-gradient(
     135deg,
-    var(--color-text-accent-fill),
-    #54b2bd,
-    #6287f3
+    var(--color-text-gr-start),
+    var(--color-text-gr-center),
+    var(--color-text-gr-end)
   );
   background-size: 100%;
   background-clip: text;
@@ -64,9 +64,9 @@ export const SocialLine = styled.div`
   height: 62px;
   background: linear-gradient(
     180deg,
-    var(--color-text-accent-fill) 9.95%,
-    #54b2bd 51.55%,
-    #6287f3 87.59%
+    var(--color-text-gr-start) 9.95%,
+    var(--color-text-gr-center) 51.55%,
+    var(--color-text-gr-end) 87.59%
   );
 `;
 
@@ -94,9 +94,9 @@ export const MailLine = styled.div`
   height: 162px;
   background: linear-gradient(
     180deg,
-    var(--color-text-accent-fill) 9.95%,
-    #54b2bd 51.55%,
-    #6287f3 87.59%
+    var(--color-text-gr-start) 9.95%,
+    var(--color-text-gr-center) 51.55%,
+    var(--color-text-gr-end) 87.59%
   );
 `;
 

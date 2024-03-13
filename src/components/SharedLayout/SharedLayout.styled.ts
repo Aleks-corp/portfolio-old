@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "../../assets/base.css";
 
 export const LayoutContainer = styled.div`
   display: flex;
@@ -12,7 +13,7 @@ export const Main = styled.main`
   overflow-x: hidden;
 
   &::-webkit-scrollbar {
-    background-color: #24282c;
+    background-color: var(--color-background-mute);
     width: 10px;
   }
   &::-webkit-scrollbar-thumb {
