@@ -9,10 +9,10 @@ import {
   AboutTitleAccent,
 } from "./AboutSection.styled";
 import { ABOUT_SKILLS } from "../../constants/aboutSkills";
-import res from "../../assets/fluent_phone-tablet-20-regular.svg";
-import speed from "../../assets/fluent_top-speed-20-regular.svg";
-import err from "../../assets/iconoir_error-window.svg";
-import time from "../../assets/pepicons-pencil_rewind-time.svg";
+import res from "../../assets/icons/fluent_phone-tablet-20-regular.svg";
+import speed from "../../assets/icons/fluent_top-speed-20-regular.svg";
+import err from "../../assets/icons/iconoir_error-window.svg";
+import time from "../../assets/icons/pepicons-pencil_rewind-time.svg";
 
 export function AboutSection() {
   return (
@@ -24,16 +24,16 @@ export function AboutSection() {
         </AboutTitle>
         <AboutList>
           <AboutListImage>
-            <img width={64} src={err} alt="" />
+            <img width={64} src={err} alt="Problem solving icon" />
           </AboutListImage>
           <AboutListImage>
-            <img width={64} src={time} alt="" />
+            <img width={64} src={time} alt="Time management icon" />
           </AboutListImage>
           <AboutListImage>
-            <img width={64} src={speed} alt="" />
+            <img width={64} src={speed} alt="Fast load icon" />
           </AboutListImage>
           <AboutListImage>
-            <img width={64} src={res} alt="" />
+            <img width={64} src={res} alt="Responsive icon" />
           </AboutListImage>
         </AboutList>
         <AboutList>

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import "../../assets/base.css";
 
 export const Hero = styled.section`
@@ -99,37 +99,56 @@ export const MailLine = styled.div`
   );
 `;
 
+const animationBlue = keyframes`
+from {
+      width: 262px;
+      height: 215px;
+    }
+    to {
+      width: 428px;
+      height: 494px;
+    }
+`;
+
 export const BackgroundImageBlue = styled.div`
-  animation-name: animation-blue;
+  position: absolute;
+  z-index: -1;
+  filter: blur(58.5px);
+  border-radius: 395px;
+  animation-name: ${animationBlue};
+  animation-duration: 6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
   background-color: rgba(96, 143, 234, 0.6);
   top: 55px;
   right: 0;
   transform: rotate(45deg);
-  @keyframes animation-blue {
-    from {
+`;
+
+const animationGreen = keyframes`
+from {
+      width: 428px;
+      height: 394px;
+    }
+    to {
       width: 262px;
       height: 315px;
     }
-    to {
-      width: 328px;
-      height: 394px;
-    }
-  }
 `;
+
 export const BackgroundImageGreen = styled.div`
-  animation-name: animation-green;
+  position: absolute;
+  z-index: -1;
+  filter: blur(58.5px);
+  border-radius: 395px;
+  animation-name: ${animationGreen};
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
   background-color: rgba(66, 184, 131, 0.6);
   bottom: 55px;
   left: 0px;
   transform: rotate(-30deg);
-  @keyframes animation-green {
-    from {
-      width: 328px;
-      height: 394px;
-    }
-    to {
-      width: 262px;
-      height: 315px;
-    }
-  }
 `;

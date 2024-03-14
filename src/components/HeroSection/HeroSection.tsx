@@ -28,9 +28,6 @@ export function HeroSection() {
         </HeroText>
         <HeroTextAccent>{`<FullStack web developer />`}</HeroTextAccent>
 
-        <BackgroundImageBlue />
-        <BackgroundImageGreen />
-
         <SocialContainer>
           <SocialLink href="https://github.com/Aleks-corp" target="_blank">
             <LuGithub />
@@ -47,7 +44,6 @@ export function HeroSection() {
           >
             <PiLinkedinLogo />
           </SocialLink>
-
           <SocialLine />
         </SocialContainer>
         <MailContainer>
@@ -55,9 +51,10 @@ export function HeroSection() {
             <MailText>aleks.haran.dev@gmail.com</MailText>
             <LuMail />
           </SocialLink>
-
           <MailLine />
         </MailContainer>
+        <BackgroundImageBlue />
+        <BackgroundImageGreen />
       </HeroContainer>
     </Hero>
   );
