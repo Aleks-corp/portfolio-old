@@ -137,6 +137,7 @@ Error generating stack: `+o.message+`
   }
 `,Nf=[{title:"Home",path:"/"},{title:"About",path:"/about"},{title:"Projects",path:"/projects"},{title:"Contacts",path:"/contacts"}],n1=()=>q.jsx("nav",{children:q.jsx(by,{children:Nf&&Nf.map((e,t)=>q.jsx(e1,{children:q.jsx(t1,{to:e.path,children:e.title})},t))})}),r1=Ue.header`
   display: flex;
+  margin-right: 10px;
   width: 100%;
   max-width: 1200px;
   padding: 10px 0;
@@ -257,4 +258,4 @@ to {
 `;const v1=Ue.div`
   display: flex;
   justify-content: center;
-`,g1=()=>q.jsx(v1,{children:q.jsx(h1,{height:"80",width:"80",radius:"48",color:"#0B44CD",ariaLabel:"watch-loading",visible:!0})}),y1=()=>q.jsxs(Zy,{children:[q.jsx(i1,{}),q.jsx(qy,{children:q.jsx(R.Suspense,{fallback:q.jsx(g1,{}),children:q.jsx(L0,{})})})]});function w1(){const e=j0([{path:"/",element:q.jsx(y1,{}),children:[{index:!0,lazy:()=>Jc(()=>import("./HomePage-ByijB0bG.js"),__vite__mapDeps([]))},{path:"*",lazy:()=>Jc(()=>import("./ErrorPage-DUItByY2.js"),__vite__mapDeps([]))}]}],{basename:"/portfolio"});return q.jsx(W0,{router:e})}va.createRoot(document.getElementById("root")).render(q.jsx(Un.StrictMode,{children:q.jsx(w1,{})}));export{Un as R,q as j,Ue as u};
+`,g1=()=>q.jsx(v1,{children:q.jsx(h1,{height:"80",width:"80",radius:"48",color:"#0B44CD",ariaLabel:"watch-loading",visible:!0})}),y1=()=>q.jsxs(Zy,{children:[q.jsx(i1,{}),q.jsx(qy,{children:q.jsx(R.Suspense,{fallback:q.jsx(g1,{}),children:q.jsx(L0,{})})})]});function w1(){const e=j0([{path:"/",element:q.jsx(y1,{}),children:[{index:!0,lazy:()=>Jc(()=>import("./HomePage-DDSQTGEt.js"),__vite__mapDeps([]))},{path:"*",lazy:()=>Jc(()=>import("./ErrorPage-C3iqN6JU.js"),__vite__mapDeps([]))}]}],{basename:"/portfolio"});return q.jsx(W0,{router:e})}va.createRoot(document.getElementById("root")).render(q.jsx(Un.StrictMode,{children:q.jsx(w1,{})}));export{Un as R,Ns as h,q as j,Ue as u};
