@@ -1,16 +1,38 @@
 import styled from "styled-components";
 import "../../assets/base.css";
 import { NavLink } from "react-router-dom";
+import { devices } from "../../constants/breakpoints";
 
 export const HeaderContainer = styled.header`
+  position: relative;
+  z-index: 2;
   display: flex;
-  margin-right: 10px;
+  margin-left: 9px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 500px;
+  min-height: 58px;
   padding: 10px 0;
-  border-bottom: 1px solid #212121;
+  /* border-bottom: 1px solid #212121; */
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
+
+  @media screen and (${devices.sm}) {
+    max-width: 700px;
+    min-height: 58px;
+  }
+  @media screen and (${devices.md}) {
+    max-width: 900px;
+    min-height: 58px;
+  }
+  @media screen and (${devices.lg}) {
+    max-width: 1150px;
+    min-height: 58px;
+  }
+  @media screen and (${devices.xl}) {
+    max-width: 1200px;
+    min-height: 58px;
+  }
 `;
 
 export const HeaderLogo = styled.p`

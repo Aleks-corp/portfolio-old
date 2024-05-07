@@ -1,32 +1,86 @@
 import styled, { keyframes } from "styled-components";
 import "../../assets/base.css";
+import { devices } from "../../constants/breakpoints";
 
 export const Hero = styled.section`
   object-fit: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
 `;
 
 export const HeroContainer = styled.div`
   position: relative;
+  width: 100vw;
+  height: 100vh;
+  @media screen and (${devices.sm}) {
+    height: 500px;
+  }
+  @media screen and (${devices.md}) {
+    height: 500px;
+  }
+  @media screen and (${devices.xl}) {
+    height: 600px;
+  }
+`;
+
+export const HeroBox = styled.div`
+  position: relative;
   max-width: 1200px;
+  max-height: 500px;
   margin: 0 auto;
-  padding: 160px 0 250px;
+  padding-top: 160px;
+  padding-bottom: 245px;
   text-align: center;
+  @media screen and (${devices.sm}) {
+    max-width: 700px;
+    max-height: 500px;
+    padding-top: 150px;
+    padding-bottom: 195px;
+  }
+  @media screen and (${devices.md}) {
+    max-width: 900px;
+    max-height: 500px;
+    padding-top: 125px;
+    padding-bottom: 180px;
+  }
+  @media screen and (${devices.lg}) {
+    max-width: 1150px;
+    max-height: 500px;
+    padding-top: 125px;
+    padding-bottom: 180px;
+  }
+  @media screen and (${devices.xl}) {
+    max-width: 1200px;
+    max-height: 600px;
+    padding-top: 160px;
+    padding-bottom: 245px;
+  }
 `;
 
 export const HeroText = styled.h2`
-  font-size: 54px;
+  font-size: 44px;
   font-weight: 300;
+  @media screen and (${devices.md}) {
+    font-size: 54px;
+    font-weight: 300;
+  }
 `;
 
 export const HeroTextBold = styled.span`
-  font-size: 54px;
+  font-size: 44px;
   font-weight: 600;
+  @media screen and (${devices.md}) {
+    font-size: 54px;
+    font-weight: 600;
+  }
 `;
 
 export const HeroTextAccent = styled.h2`
-  font-size: 54px;
+  font-size: 44px;
   font-weight: 600;
+  @media screen and (${devices.md}) {
+    font-size: 54px;
+    font-weight: 600;
+  }
   background-image: linear-gradient(
     135deg,
     var(--color-text-gr-start),
@@ -83,14 +137,14 @@ export const MailText = styled.span`
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.3;
 `;
 
 export const MailLine = styled.div`
   width: 2px;
-  height: 162px;
+  height: 142px;
   background: linear-gradient(
     180deg,
     var(--color-text-gr-start) 9.95%,
@@ -112,7 +166,6 @@ from {
 
 export const BackgroundImageBlue = styled.div`
   position: absolute;
-  z-index: -1;
   filter: blur(58.5px);
   border-radius: 395px;
   animation-name: ${animationBlue};
@@ -122,7 +175,7 @@ export const BackgroundImageBlue = styled.div`
   animation-timing-function: linear;
   background-color: rgba(96, 143, 234, 0.6);
   top: 55px;
-  right: 0;
+  right: 50px;
   transform: rotate(45deg);
 `;
 
@@ -139,7 +192,6 @@ from {
 
 export const BackgroundImageGreen = styled.div`
   position: absolute;
-  z-index: -1;
   filter: blur(58.5px);
   border-radius: 395px;
   animation-name: ${animationGreen};
@@ -148,7 +200,7 @@ export const BackgroundImageGreen = styled.div`
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   background-color: rgba(66, 184, 131, 0.6);
-  bottom: 55px;
-  left: 0px;
+  bottom: 65px;
+  left: 50px;
   transform: rotate(-30deg);
 `;

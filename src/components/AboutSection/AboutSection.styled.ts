@@ -4,7 +4,7 @@ import "../../assets/base.css";
 export const About = styled.section`
   object-fit: cover;
   overflow: hidden;
-  background: var(--color-background);
+  background: var(--color-background-soft);
 `;
 
 export const AboutContainer = styled.div`

@@ -1,13 +1,20 @@
 import styled from "styled-components";
 import "../../assets/base.css";
 import { NavLink as BaseNavLink } from "react-router-dom";
+import { devices } from "../../constants/breakpoints";
 
 export const List = styled.ul`
   display: flex;
   width: 210px;
   justify-content: space-between;
-  @media (min-width: 768px) {
+  @media screen and (${devices.sm}) {
     width: 360px;
+  }
+  @media screen and (${devices.md}) {
+    width: 400px;
+  }
+  @media screen and (${devices.xl}) {
+    width: 430px;
   }
 `;
 
@@ -18,7 +25,7 @@ export const Item = styled.li`
   align-items: center;
   padding: 0;
   border-radius: 10px;
-  background-color: var(--color-background-soft);
+  background-color: transparent;
 `;
 
 export const NavLink = styled(BaseNavLink)`

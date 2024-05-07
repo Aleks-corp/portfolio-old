@@ -14,47 +14,48 @@ import {
   MailContainer,
   MailText,
   MailLine,
-  BackgroundImageBlue,
-  BackgroundImageGreen,
+  HeroBox,
 } from "./HeroSection.styled";
+import { HeroGradient } from "../HeroGradient/HeroGradient";
 export function HeroSection() {
   return (
     <Hero>
       <HeroContainer>
         <h1 className="hidden">Portfolio</h1>
-        <HeroText>Hello World</HeroText>
-        <HeroText>
-          I'm <HeroTextBold>Oleksandr Haran</HeroTextBold>.
-        </HeroText>
-        <HeroTextAccent>{`<FullStack web developer />`}</HeroTextAccent>
+        <HeroGradient />
+        <HeroBox>
+          <HeroText>Hello World</HeroText>
+          <HeroText>
+            I'm <HeroTextBold>Oleksandr Haran</HeroTextBold>.
+          </HeroText>
+          <HeroTextAccent>{`<FullStack web developer />`}</HeroTextAccent>
 
-        <SocialContainer>
-          <SocialLink href="https://github.com/Aleks-corp" target="_blank">
-            <LuGithub />
-          </SocialLink>
-          <SocialLink
-            href="https://www.facebook.com/aleks.root.corp/"
-            target="_blank"
-          >
-            <PiFacebookLogo />
-          </SocialLink>
-          <SocialLink
-            href="https://www.linkedin.com/in/aleks-haran-dev"
-            target="_blank"
-          >
-            <PiLinkedinLogo />
-          </SocialLink>
-          <SocialLine />
-        </SocialContainer>
-        <MailContainer>
-          <SocialLink href="mailto:aleks.haran.dev@gmail.com">
-            <MailText>aleks.haran.dev@gmail.com</MailText>
-            <LuMail />
-          </SocialLink>
-          <MailLine />
-        </MailContainer>
-        <BackgroundImageBlue />
-        <BackgroundImageGreen />
+          <SocialContainer>
+            <SocialLink href="https://github.com/Aleks-corp" target="_blank">
+              <LuGithub />
+            </SocialLink>
+            <SocialLink
+              href="https://www.facebook.com/aleks.root.corp/"
+              target="_blank"
+            >
+              <PiFacebookLogo />
+            </SocialLink>
+            <SocialLink
+              href="https://www.linkedin.com/in/aleks-haran-dev"
+              target="_blank"
+            >
+              <PiLinkedinLogo />
+            </SocialLink>
+            <SocialLine />
+          </SocialContainer>
+          <MailContainer>
+            <SocialLink href="mailto:aleks.haran.dev@gmail.com">
+              <MailText>aleks.haran.dev@gmail.com</MailText>
+              <LuMail />
+            </SocialLink>
+            <MailLine />
+          </MailContainer>
+        </HeroBox>
       </HeroContainer>
     </Hero>
   );
