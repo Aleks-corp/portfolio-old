@@ -26,7 +26,7 @@ export function HeroSection() {
         <HeroBox>
           <HeroText>Hello World</HeroText>
           <HeroText>
-            I'm <HeroTextBold>Oleksandr Haran</HeroTextBold>.
+            I&apos;m <HeroTextBold>Oleksandr Haran</HeroTextBold>.
           </HeroText>
           <HeroTextAccent>{`<FullStack web developer />`}</HeroTextAccent>
 

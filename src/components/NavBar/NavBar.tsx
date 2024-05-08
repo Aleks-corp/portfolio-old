@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <nav>
       <List>
-        {NAV_LIST &&
+        {NAV_LIST.length !== 0 &&
           NAV_LIST.map((item, index) => (
             <Item key={index}>
               <NavLink to={item.path}>{item.title}</NavLink>
