@@ -12,9 +12,7 @@
 
 /* Links */
 
-a,
-a:link,
-a:visited {
+a {
   text-decoration: none;
 }
 
@@ -80,7 +78,7 @@ input::-ms-clear {
 }
 
 button,
-input[type='submit'] {
+input[type="submit"] {
   display: inline-block;
   box-shadow: none;
   background-color: transparent;

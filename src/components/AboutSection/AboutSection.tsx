@@ -1,49 +1,43 @@
 import {
   About,
+  AboutBGThumb,
   AboutContainer,
-  AboutItemText,
-  AboutItemTitle,
-  AboutList,
-  AboutListImage,
+  AboutText,
+  AboutTextAccent,
+  AboutTextContainer,
+  AboutTextLink,
   AboutTitle,
   AboutTitleAccent,
+  BGImg,
+  PhotoElipse,
+  PhotoImg,
 } from "./AboutSection.styled";
-import { ABOUT_SKILLS } from "../../constants/aboutSkills";
-import res from "../../assets/icons/fluent_phone-tablet-20-regular.svg";
-import speed from "../../assets/icons/fluent_top-speed-20-regular.svg";
-import err from "../../assets/icons/iconoir_error-window.svg";
-import time from "../../assets/icons/pepicons-pencil_rewind-time.svg";
+import BG from "../../assets/aboutBG.svg";
+import Photo from "../../assets/photo.webp";
 
 export function AboutSection() {
   return (
     <About>
+      <AboutBGThumb>
+        <PhotoElipse />
+        <BGImg width={"100%"} height={"100%"} src={BG} />
+      </AboutBGThumb>
+      <PhotoImg width={"384px"} height={"541px"} src={Photo} />
       <AboutContainer>
         <AboutTitle>
           <AboutTitleAccent>{"<"}</AboutTitleAccent>About
           <AboutTitleAccent>{">"}</AboutTitleAccent>
         </AboutTitle>
-        <AboutList>
-          <AboutListImage>
-            <img width={64} src={err} alt="Problem solving icon" />
-          </AboutListImage>
-          <AboutListImage>
-            <img width={64} src={time} alt="Time management icon" />
-          </AboutListImage>
-          <AboutListImage>
-            <img width={64} src={speed} alt="Fast load icon" />
-          </AboutListImage>
-          <AboutListImage>
-            <img width={64} src={res} alt="Responsive icon" />
-          </AboutListImage>
-        </AboutList>
-        <AboutList>
-          {ABOUT_SKILLS.map((item, index) => (
-            <li key={index}>
-              <AboutItemTitle>{item.title}</AboutItemTitle>
-              <AboutItemText>{item.text}</AboutItemText>
-            </li>
-          ))}
-        </AboutList>
+        <AboutTextContainer>
+          <AboutTextAccent>“</AboutTextAccent>
+          <AboutText>
+            Hey there! I&apos;m a web developer from Ukraine with a passion for
+            solving tricky problems. I&apos;m comfortable working on both
+            front-end and back-end development{" "}
+            <AboutTextLink to={"/about"}>Learn more...</AboutTextLink>
+          </AboutText>
+          <AboutTextAccent>“</AboutTextAccent>
+        </AboutTextContainer>
       </AboutContainer>
     </About>
   );
