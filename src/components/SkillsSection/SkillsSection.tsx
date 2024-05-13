@@ -6,12 +6,18 @@ import {
   SkillText,
   SkillsTitle,
   SkillsTitleAccent,
+  BGImg,
+  BGImgCont,
 } from "./SkillsSection.styled";
 import { SKILLS } from "../../constants/slills";
+import BG from "../../assets/aboutBG.svg";
 
 export function SkillsSection() {
   return (
     <Skills>
+      <BGImgCont>
+        <BGImg src={BG} />
+      </BGImgCont>
       <SkillsContainer>
         <SkillsTitle>
           <SkillsTitleAccent>{"<"}</SkillsTitleAccent>Skills

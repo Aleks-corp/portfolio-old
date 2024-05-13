@@ -1,5 +1,6 @@
 import {
   Project,
+  ProjectBG,
   ProjectContainer,
   ProjectImage,
   ProjectImgWrapper,
@@ -11,15 +12,17 @@ import {
   ProjectTitle,
   ProjectTitleAccent,
 } from "./ProjectSection.styled";
-import IceCream from "../../assets/photo-projects/Screenshot_1.jpg";
-import DrinkMaster from "../../assets/photo-projects/Screenshot_26.jpg";
-import CarRent from "../../assets/photo-projects/Screenshot_27.jpg";
-import Filmoteka from "../../assets/photo-projects/Screenshot_3.jpg";
+import Dashboard from "../../assets/photo-projects/Dashboard.jpg";
+import DrinkMaster from "../../assets/photo-projects/drink-master.jpg";
+import CarRent from "../../assets/photo-projects/car-rent-2.jpg";
+import Filmoteka from "../../assets/photo-projects/filmoteka.jpg";
 
 export function ProjectSection() {
   return (
     <Project>
       <ProjectContainer>
+        <ProjectBG $left />
+        <ProjectBG />
         <ProjectTitle>
           <ProjectTitleAccent>{"<"}</ProjectTitleAccent>Project
           <ProjectTitleAccent>{">"}</ProjectTitleAccent>
@@ -27,24 +30,14 @@ export function ProjectSection() {
         <ProjectList>
           <ProjectItem>
             <ProjectImgWrapper>
-              <ProjectImage width={600} src={IceCream} />
-            </ProjectImgWrapper>
-
-            <ProjectItemTitle>Ice Cream Website</ProjectItemTitle>
-            <ProjectItemTextWrapper>
-              <ProjectItemText>FrontEnd</ProjectItemText>
-              <ProjectItemText>HTML</ProjectItemText>
-              <ProjectItemText>JavaScript</ProjectItemText>
-            </ProjectItemTextWrapper>
-          </ProjectItem>
-          <ProjectItem>
-            <ProjectImgWrapper>
               <ProjectImage width={600} src={Filmoteka} />
             </ProjectImgWrapper>
             <ProjectItemTitle>Filmoteka Website</ProjectItemTitle>
             <ProjectItemTextWrapper>
-              <ProjectItemText>FrontEnd</ProjectItemText>
+              <ProjectItemText>HTML</ProjectItemText>
+              <ProjectItemText>SCSS</ProjectItemText>
               <ProjectItemText>JavaScript</ProjectItemText>
+              <ProjectItemText>FireBase</ProjectItemText>
             </ProjectItemTextWrapper>
           </ProjectItem>
           <ProjectItem>
@@ -53,10 +46,26 @@ export function ProjectSection() {
             </ProjectImgWrapper>
             <ProjectItemTitle>DrinkMaster Website</ProjectItemTitle>
             <ProjectItemTextWrapper>
-              <ProjectItemText>FrontEnd</ProjectItemText>
-              <ProjectItemText>BackEnd</ProjectItemText>
-              <ProjectItemText>ReactJS</ProjectItemText>
-              <ProjectItemText>NodeJS</ProjectItemText>
+              <ProjectItemText>React</ProjectItemText>
+              <ProjectItemText>Redux-toolkit</ProjectItemText>
+              <ProjectItemText>NodeJs</ProjectItemText>
+              <ProjectItemText>Express</ProjectItemText>
+              <ProjectItemText>Mongoose</ProjectItemText>
+              <ProjectItemText>Swagger</ProjectItemText>
+            </ProjectItemTextWrapper>
+          </ProjectItem>
+          <ProjectItem>
+            <ProjectImgWrapper>
+              <ProjectImage width={600} src={Dashboard} />
+            </ProjectImgWrapper>
+            <ProjectItemTitle>Tasks Dashboard</ProjectItemTitle>
+            <ProjectItemTextWrapper>
+              <ProjectItemText>React</ProjectItemText>
+              <ProjectItemText>Redux-toolkit</ProjectItemText>
+              <ProjectItemText>NodeJs</ProjectItemText>
+              <ProjectItemText>TypeScript</ProjectItemText>
+              <ProjectItemText>NestJs</ProjectItemText>
+              <ProjectItemText>Postgres</ProjectItemText>
             </ProjectItemTextWrapper>
           </ProjectItem>
           <ProjectItem>
@@ -65,8 +74,9 @@ export function ProjectSection() {
             </ProjectImgWrapper>
             <ProjectItemTitle>Car Rent Website</ProjectItemTitle>
             <ProjectItemTextWrapper>
-              <ProjectItemText>FrontEnd</ProjectItemText>
-              <ProjectItemText>ReactJS</ProjectItemText>
+              <ProjectItemText>React</ProjectItemText>
+              <ProjectItemText>Redux-toolkit</ProjectItemText>
+              <ProjectItemText>Styled-components</ProjectItemText>
             </ProjectItemTextWrapper>
           </ProjectItem>
         </ProjectList>

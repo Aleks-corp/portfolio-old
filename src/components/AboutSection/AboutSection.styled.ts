@@ -54,7 +54,7 @@ export const AboutContainer = styled.div`
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 36px 0 46px;
+  padding-top: 36px;
   z-index: 2;
 `;
 

@@ -5,6 +5,7 @@ import { LayoutContainer, Main } from "./SharedLayout.styled";
 
 import { Header } from "../Header/Header";
 import { Loader } from "../Loader/Loader";
+import { Footer } from "../Footer/Footer";
 
 const SharedLayout = () => {
   return (
@@ -15,6 +16,7 @@ const SharedLayout = () => {
           <Outlet />
         </Suspense>
       </Main>
+      <Footer />
       {/* <Toaster position="top-right" reverseOrder={false} /> */}
     </LayoutContainer>
   );

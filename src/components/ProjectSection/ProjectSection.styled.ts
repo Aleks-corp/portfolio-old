@@ -2,20 +2,32 @@ import styled from "styled-components";
 import "../../assets/base.css";
 
 export const Project = styled.section`
-  object-fit: cover;
-  overflow: hidden;
-  background: var(--color-background-soft);
+  background: var(--color-background);
+`;
+
+export const ProjectBG = styled.div<{ $left?: boolean }>`
+  position: absolute;
+  top: 50%;
+  left: ${(props) => props.$left && 0};
+  right: ${(props) => !props.$left && 0};
+  transform: translate(${(props) => (props.$left ? "-100%" : "100%")}, -50%);
+  width: 540px;
+  height: 1000px;
+  border-radius: 1200px;
+  background: rgba(66, 184, 131, 0.2);
+  filter: blur(100px);
 `;
 
 export const ProjectContainer = styled.div`
+  position: relative;
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 36px 0 46px;
+  padding: 86px 0 24px;
 `;
 
 export const ProjectTitle = styled.h2`
-  margin-bottom: 46px;
+  margin-bottom: 84px;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.17;
@@ -29,38 +41,36 @@ export const ProjectList = styled.ul`
   display: grid;
   width: 100%;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 500px;
-  grid-auto-columns: 550px;
-  grid-column-gap: 18px;
-  grid-row-gap: 24px;
+  grid-auto-rows: 434px;
+  grid-auto-columns: 576px;
+  grid-column-gap: 48px;
+  grid-row-gap: 34px;
+`;
+
+export const ProjectImgWrapper = styled.div`
+  width: 100%;
+  padding: 38px 28px;
+  border-radius: 14px;
+  box-shadow: 0px 8px 14px 2px rgba(0, 0, 0, 0.25);
+  background: var(--color-background-soft);
 `;
 
 export const ProjectItem = styled.li`
   border-radius: 20px;
   text-align: start;
-`;
-
-export const ProjectImgWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-background);
-  border-radius: 20px;
-  overflow: hidden;
-  width: 100%;
-  height: 380px;
-`;
-
-export const ProjectImage = styled.img`
-  transition: transform 1s;
-  transform: scale(1.33);
+  user-select: none;
   &:hover {
-    transform: scale(1);
+    ${ProjectImgWrapper} {
+      background: var(--color-background-mute);
+    }
   }
 `;
 
+export const ProjectImage = styled.img``;
+
 export const ProjectItemTitle = styled.p`
-  margin-top: 20px;
+  margin-top: 24px;
+  margin-left: 8px;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.17;
@@ -68,15 +78,19 @@ export const ProjectItemTitle = styled.p`
 
 export const ProjectItemTextWrapper = styled.div`
   display: flex;
+  margin-top: 12px;
 `;
 
 export const ProjectItemText = styled.p`
   display: inline-block;
-  margin-top: 8px;
   padding: 5px 10px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.17;
+  line-height: 1.75;
   border-radius: 8px;
   border: 1px solid #88898b60;
+  margin-right: 8px;
+  &:last-child {
+    margin-right: 0;
+  }
 `;

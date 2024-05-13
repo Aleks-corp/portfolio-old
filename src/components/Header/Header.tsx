@@ -4,7 +4,7 @@ import { CVLink, HeaderContainer, HeaderLogo } from "./Header.styled";
 export const Header = () => {
   return (
     <HeaderContainer>
-      <HeaderLogo className="header__logo accentGradient">Portfolio</HeaderLogo>
+      <HeaderLogo>Portfolio</HeaderLogo>
       <NavBar />
       <CVLink
         to="/CV_Oleksandr_Haran_Junior_FullStack_Developer.pdf"
