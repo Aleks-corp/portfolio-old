@@ -86,6 +86,10 @@ export const AboutText = styled.p`
   line-height: 1.75;
 `;
 
+export const AboutTextBold = styled.span`
+  font-weight: 600;
+`;
+
 export const AboutTextLink = styled(NavLink)`
   color: var(--color-text-accent);
   font-family: Raleway;

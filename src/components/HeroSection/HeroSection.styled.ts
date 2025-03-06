@@ -65,7 +65,7 @@ export const HeroText = styled.h2`
   }
 `;
 
-export const HeroTextBold = styled.span`
+export const HeroTextBold = styled.h2`
   font-size: 44px;
   font-weight: 600;
   @media screen and (${devices.md}) {
@@ -74,7 +74,7 @@ export const HeroTextBold = styled.span`
   }
 `;
 
-export const HeroTextAccent = styled.h2`
+export const HeroTextAccent = styled.span`
   font-size: 44px;
   font-weight: 600;
   @media screen and (${devices.md}) {
