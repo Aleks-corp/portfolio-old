@@ -1,6 +1,6 @@
 export const NAV_LIST = [
   { title: "Home", path: "/" },
-  { title: "About", path: "/about" },
-  { title: "Projects", path: "/projects" },
-  { title: "Contacts", path: "/contacts" },
+  { title: "About", path: "/" },
+  { title: "Projects", path: "/" },
+  { title: "Contacts", path: "/" },
 ];
