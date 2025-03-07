@@ -23,7 +23,7 @@ export function AboutSection() {
         <PhotoElipse />
         <BGImg width={"100%"} height={"100%"} src={BG} />
       </AboutBGThumb>
-      <PhotoImg width={"384px"} height={"541px"} src={Photo} />
+      <PhotoImg width={"384px"} height={"500px"} src={Photo} />
       <AboutContainer>
         <AboutTitle>
           <AboutTitleAccent>{"<"}</AboutTitleAccent>About /
