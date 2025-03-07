@@ -37,16 +37,16 @@ export function HeroSection() {
               <LuGithub />
             </SocialLink>
             <SocialLink
-              href="https://www.facebook.com/aleks.root.corp/"
-              target="_blank"
-            >
-              <PiFacebookLogo />
-            </SocialLink>
-            <SocialLink
               href="https://www.linkedin.com/in/aleks-haran-dev"
               target="_blank"
             >
               <PiLinkedinLogo />
+            </SocialLink>
+            <SocialLink
+              href="https://www.facebook.com/aleks.root.corp/"
+              target="_blank"
+            >
+              <PiFacebookLogo />
             </SocialLink>
             <SocialLine />
           </SocialContainer>
