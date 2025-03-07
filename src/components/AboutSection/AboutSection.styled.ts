@@ -46,7 +46,7 @@ export const PhotoImg = styled.img`
   bottom: 0;
   left: 208px;
   width: 384px;
-  height: 541px;
+  height: 500px;
 `;
 
 export const AboutContainer = styled.div`
