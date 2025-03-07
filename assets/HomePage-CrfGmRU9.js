@@ -1,4 +1,4 @@
-import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as S,b as z}from"./main-C0_ETz2N.js";const L=e.section`
+import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as S,b as z}from"./main-Be3B6yav.js";const L=e.section`
   position: relative;
   width: 100%;
   height: 448px;
@@ -34,7 +34,7 @@ import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as S,b as z}fro
   bottom: 0;
   left: 208px;
   width: 384px;
-  height: 541px;
+  height: 500px;
 `,R=e.div`
   position: relative;
   text-align: center;
