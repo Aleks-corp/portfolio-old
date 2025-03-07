@@ -1,9 +1,9 @@
-import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as z,b as S}from"./main-BYW27ueq.js";const T=e.section`
+import{p as e,N as y,j as t,d as o,f as r,r as m,L as B,P as $,a as S,b as z}from"./main-DT7U8dsK.js";const L=e.section`
   position: relative;
   width: 100%;
   height: 448px;
   background: var(--color-background-soft);
-`,L=e.div`
+`,T=e.div`
   position: absolute;
   top: 0;
   left: 0;
@@ -49,20 +49,20 @@ import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as z,b as S}fro
   line-height: 1.17;
 `,f=e.span`
   color: var(--color-text-accent);
-`,M=e.div`
+`,D=e.div`
   display: flex;
   justify-content: end;
   height: 150px;
   align-items: center;
   text-align: justify;
-`,H=e.p`
+`,M=e.p`
   width: 550px;
   color: #fff;
   font-family: Raleway;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.75;
-`,D=e.span`
+`,H=e.span`
   font-weight: 600;
 `,E=e(y)`
   color: var(--color-text-accent);
@@ -98,10 +98,10 @@ import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as z,b as S}fro
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
-`;const k="/portfolio/assets/aboutBG-dlcneVBX.svg",F="/portfolio/assets/photo-9mgBABjD.webp";function W(){return t.jsxs(T,{children:[t.jsxs(L,{children:[t.jsx(P,{}),t.jsx(A,{width:"100%",height:"100%",src:k})]}),t.jsx(G,{width:"384px",height:"541px",src:F}),t.jsxs(R,{children:[t.jsxs(I,{children:[t.jsx(f,{children:"<"}),"About /",t.jsx(f,{children:">"})]}),t.jsxs(M,{children:[t.jsx(u,{children:"“"}),t.jsxs(H,{children:["Hey there! I'm ",t.jsx(D,{children:"Oleksandr Haran"}),", web developer from Ukraine with a passion for solving tricky problems. I'm comfortable working on both front-end and back-end development"," ",t.jsx(E,{to:"/about",children:"Learn more..."})]}),t.jsx(u,{children:"“"})]})]})]})}const N=e.section`
+`;const k="/portfolio/assets/aboutBG-dlcneVBX.svg",F="/portfolio/assets/photo-9mgBABjD.webp";function W(){return t.jsxs(L,{id:"about",children:[t.jsxs(T,{children:[t.jsx(P,{}),t.jsx(A,{width:"100%",height:"100%",src:k})]}),t.jsx(G,{width:"384px",height:"541px",src:F}),t.jsxs(R,{children:[t.jsxs(I,{children:[t.jsx(f,{children:"<"}),"About /",t.jsx(f,{children:">"})]}),t.jsxs(D,{children:[t.jsx(u,{children:"“"}),t.jsxs(M,{children:["Hey there! I'm ",t.jsx(H,{children:"Oleksandr Haran"}),", web developer from Ukraine with a passion for solving tricky problems. I'm comfortable working on both front-end and back-end development"," ",t.jsx(E,{to:"/about",children:"Learn more..."})]}),t.jsx(u,{children:"“"})]})]})]})}const N=e.section`
   object-fit: cover;
   /* overflow: hidden; */
-`,V=e.div`
+`,J=e.div`
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -114,7 +114,7 @@ import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as z,b as S}fro
   @media screen and (${o.xl}) {
     height: 600px;
   }
-`,Z=e.div`
+`,V=e.div`
   position: relative;
   max-width: 1200px;
   max-height: 500px;
@@ -153,7 +153,7 @@ import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as z,b as S}fro
     font-size: 54px;
     font-weight: 300;
   }
-`,J=e.h2`
+`,Z=e.h2`
   font-size: 44px;
   font-weight: 600;
   @media screen and (${o.md}) {
@@ -192,7 +192,7 @@ import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as z,b as S}fro
   &:hover {
     color: var(--color-text-accent);
   }
-`,K=e.div`
+`,U=e.div`
   width: 2px;
   height: 62px;
   background: linear-gradient(
@@ -201,7 +201,7 @@ import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as z,b as S}fro
     var(--color-text-gr-center) 51.55%,
     var(--color-text-gr-end) 87.59%
   );
-`,O=e.div`
+`,K=e.div`
   position: absolute;
   bottom: 0;
   right: -15px;
@@ -209,7 +209,7 @@ import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as z,b as S}fro
   flex-direction: column;
   align-items: center;
   width: 30px;
-`,U=e.span`
+`,O=e.span`
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   color: #fff;
@@ -389,7 +389,7 @@ from {
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-timing-function: ease;
-`;function w(){const{innerWidth:n,innerHeight:s}=window;return{width:n,height:s}}function bt(){const[n,s]=m.useState(w());return m.useEffect(()=>{function g(){s(w())}return window.addEventListener("resize",g),()=>{window.removeEventListener("resize",g)}},[]),n}function vt(){const{width:n}=bt();return t.jsx(st,{children:n<=1024?t.jsx(a,{src:at}):t.jsxs(t.Fragment,{children:[t.jsx(ct,{children:t.jsx(a,{src:rt})}),t.jsx(xt,{children:t.jsx(a,{src:ot})}),t.jsx(ht,{children:t.jsx(a,{src:nt})}),t.jsx(mt,{children:t.jsx(a,{src:it})}),t.jsx(ut,{children:t.jsx(a,{src:et})}),t.jsx(wt,{children:t.jsx(a,{src:tt})})]})})}function Ct(){return t.jsx(N,{children:t.jsxs(V,{children:[t.jsx("h1",{className:"hidden",children:"Portfolio"}),t.jsx(vt,{}),t.jsxs(Z,{children:[t.jsx(j,{children:"Hello World"}),t.jsxs(j,{children:["I'm"," ",t.jsx(_,{children:"<FullStack_web_developer />"})]}),t.jsx(J,{children:"I create web applications."}),t.jsxs(q,{children:[t.jsx(c,{href:"https://github.com/Aleks-corp",target:"_blank",children:t.jsx($,{})}),t.jsx(c,{href:"https://www.facebook.com/aleks.root.corp/",target:"_blank",children:t.jsx(B,{})}),t.jsx(c,{href:"https://www.linkedin.com/in/aleks-haran-dev",target:"_blank",children:t.jsx(z,{})}),t.jsx(K,{})]}),t.jsxs(O,{children:[t.jsxs(c,{href:"mailto:aleks.haran.dev@gmail.com",children:[t.jsx(U,{children:"aleks.haran.dev@gmail.com"}),t.jsx(S,{})]}),t.jsx(X,{})]})]})]})})}const kt=e.section`
+`;function w(){const{innerWidth:n,innerHeight:s}=window;return{width:n,height:s}}function bt(){const[n,s]=m.useState(w());return m.useEffect(()=>{function g(){s(w())}return window.addEventListener("resize",g),()=>{window.removeEventListener("resize",g)}},[]),n}function vt(){const{width:n}=bt();return t.jsx(st,{children:n<=1024?t.jsx(a,{src:at}):t.jsxs(t.Fragment,{children:[t.jsx(ct,{children:t.jsx(a,{src:rt})}),t.jsx(xt,{children:t.jsx(a,{src:ot})}),t.jsx(ht,{children:t.jsx(a,{src:nt})}),t.jsx(mt,{children:t.jsx(a,{src:it})}),t.jsx(ut,{children:t.jsx(a,{src:et})}),t.jsx(wt,{children:t.jsx(a,{src:tt})})]})})}function Ct(){return t.jsx(N,{children:t.jsxs(J,{children:[t.jsx("h1",{className:"hidden",children:"Portfolio"}),t.jsx(vt,{}),t.jsxs(V,{children:[t.jsx(j,{children:"Hello World"}),t.jsxs(j,{children:["I'm"," ",t.jsx(_,{children:"<FullStack_web_developer />"})]}),t.jsx(Z,{children:"I create web applications."}),t.jsxs(q,{children:[t.jsx(c,{href:"https://github.com/Aleks-corp",target:"_blank",children:t.jsx(B,{})}),t.jsx(c,{href:"https://www.facebook.com/aleks.root.corp/",target:"_blank",children:t.jsx($,{})}),t.jsx(c,{href:"https://www.linkedin.com/in/aleks-haran-dev",target:"_blank",children:t.jsx(S,{})}),t.jsx(U,{})]}),t.jsxs(K,{children:[t.jsxs(c,{href:"mailto:aleks.haran.dev@gmail.com",children:[t.jsx(O,{children:"aleks.haran.dev@gmail.com"}),t.jsx(z,{})]}),t.jsx(X,{})]})]})]})})}const kt=e.section`
   background: var(--color-background);
 `,b=e.div`
   position: absolute;
@@ -408,14 +408,14 @@ from {
   max-width: 1200px;
   margin: 0 auto;
   padding: 86px 0 24px;
-`,$t=e.h2`
+`,Bt=e.h2`
   margin-bottom: 84px;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.17;
 `,v=e.span`
   color: var(--color-text-accent);
-`,Bt=e.ul`
+`,$t=e.ul`
   display: grid;
   width: 100%;
   grid-template-columns: repeat(2, 1fr);
@@ -459,7 +459,7 @@ from {
   &:last-child {
     margin-right: 0;
   }
-`,zt="/portfolio/assets/Dashboard-C7wuD5AP.jpg",St="/portfolio/assets/drink-master-DRgky2TG.jpg",Tt="/portfolio/assets/car-rent-2-C8M2Ki6I.jpg",Lt="/portfolio/assets/filmoteka-C7JT0eRy.jpg";function Pt(){return t.jsx(kt,{children:t.jsxs(yt,{children:[t.jsx(b,{$left:!0}),t.jsx(b,{}),t.jsxs($t,{children:[t.jsx(v,{children:"<"}),"Project",t.jsx(v,{children:">"})]}),t.jsxs(Bt,{children:[t.jsxs(d,{children:[t.jsx(l,{children:t.jsx(x,{width:600,src:Lt})}),t.jsx(p,{children:"Filmoteka Website"}),t.jsxs(h,{children:[t.jsx(i,{children:"HTML"}),t.jsx(i,{children:"SCSS"}),t.jsx(i,{children:"JavaScript"}),t.jsx(i,{children:"FireBase"})]})]}),t.jsxs(d,{children:[t.jsx(l,{children:t.jsx(x,{width:600,src:St})}),t.jsx(p,{children:"DrinkMaster Website"}),t.jsxs(h,{children:[t.jsx(i,{children:"React"}),t.jsx(i,{children:"Redux-toolkit"}),t.jsx(i,{children:"NodeJs"}),t.jsx(i,{children:"Express"}),t.jsx(i,{children:"Mongoose"}),t.jsx(i,{children:"Swagger"})]})]}),t.jsxs(d,{children:[t.jsx(l,{children:t.jsx(x,{width:600,src:zt})}),t.jsx(p,{children:"Tasks Dashboard"}),t.jsxs(h,{children:[t.jsx(i,{children:"React"}),t.jsx(i,{children:"Redux-toolkit"}),t.jsx(i,{children:"NodeJs"}),t.jsx(i,{children:"TypeScript"}),t.jsx(i,{children:"NestJs"}),t.jsx(i,{children:"Postgres"})]})]}),t.jsxs(d,{children:[t.jsx(l,{children:t.jsx(x,{width:600,src:Tt})}),t.jsx(p,{children:"Car Rent Website"}),t.jsxs(h,{children:[t.jsx(i,{children:"React"}),t.jsx(i,{children:"Redux-toolkit"}),t.jsx(i,{children:"Styled-components"})]})]})]})]})})}const At=e.section`
+`,St="/portfolio/assets/Dashboard-C7wuD5AP.jpg",zt="/portfolio/assets/drink-master-DRgky2TG.jpg",Lt="/portfolio/assets/designlab-BUhEg7lk.png",Tt="/portfolio/assets/filmoteka-C7JT0eRy.jpg";function Pt(){return t.jsx(kt,{id:"project",children:t.jsxs(yt,{children:[t.jsx(b,{$left:!0}),t.jsx(b,{}),t.jsxs(Bt,{children:[t.jsx(v,{children:"<"}),"Project",t.jsx(v,{children:">"})]}),t.jsxs($t,{children:[t.jsxs(d,{children:[t.jsx(l,{children:t.jsx(x,{width:600,src:Tt})}),t.jsx(p,{children:"Filmoteka Website"}),t.jsxs(h,{children:[t.jsx(i,{children:"HTML"}),t.jsx(i,{children:"SCSS"}),t.jsx(i,{children:"JavaScript"}),t.jsx(i,{children:"FireBase"})]})]}),t.jsxs(d,{children:[t.jsx(l,{children:t.jsx(x,{width:600,src:zt})}),t.jsx(p,{children:"DrinkMaster Website"}),t.jsxs(h,{children:[t.jsx(i,{children:"React"}),t.jsx(i,{children:"Redux"}),t.jsx(i,{children:"NodeJs"}),t.jsx(i,{children:"Express"}),t.jsx(i,{children:"Mongoose"}),t.jsx(i,{children:"Swagger"})]})]}),t.jsxs(d,{children:[t.jsx(l,{children:t.jsx(x,{width:600,src:St})}),t.jsx(p,{children:"Tasks Dashboard"}),t.jsxs(h,{children:[t.jsx(i,{children:"React"}),t.jsx(i,{children:"Redux-toolkit"}),t.jsx(i,{children:"NodeJs"}),t.jsx(i,{children:"TypeScript"}),t.jsx(i,{children:"NestJs"}),t.jsx(i,{children:"Postgres"})]})]}),t.jsxs(d,{children:[t.jsx(l,{children:t.jsx(x,{width:600,src:Lt})}),t.jsx(p,{children:"Design Lab App"}),t.jsxs(h,{children:[t.jsx(i,{children:"React"}),t.jsx(i,{children:"Redux"}),t.jsx(i,{children:"SASS"}),t.jsx(i,{children:"NodeJs"}),t.jsx(i,{children:"ExpressJs"}),t.jsx(i,{children:"MongoDB"})]})]})]})]})})}const At=e.section`
   position: relative;
   background: transparent;
   z-index: 1;
@@ -477,20 +477,20 @@ from {
   max-width: 1200px;
   margin: 0 auto;
   padding: 60px 0 42px;
-`,Mt=e.h2`
+`,Dt=e.h2`
   margin-bottom: 84px;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.17;
 `,C=e.span`
   color: var(--color-text-accent);
-`,Ht=e.ul`
+`,Mt=e.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 18px;
   column-gap: 14px;
-`,Dt=e.li`
+`,Ht=e.li`
   background-color: var(--color-background-soft);
   color: var(--color-text);
   border-radius: 10px;
@@ -503,4 +503,4 @@ from {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.3;
-`,Ft=[{title:"expressjs",img:""},{title:"git",img:""},{title:"react",img:""},{title:"rest-api",img:""},{title:"react-native",img:""},{title:"json",img:""},{title:"javascript",img:""},{title:"ant-design",img:""},{title:"nodejs",img:""},{title:"full-stack",img:""},{title:"scss",img:""},{title:"typescript",img:""},{title:"slack",img:""},{title:"swagger",img:""},{title:"redux",img:""},{title:"vue",img:""},{title:"docker",img:""},{title:"mongodb",img:""},{title:"postgresql",img:""},{title:"nextjs",img:""},{title:"typeorm",img:""},{title:"mysql",img:""},{title:"materialui",img:""},{title:"sass",img:""},{title:"styled-component",img:""},{title:"github",img:""}];function Wt(){return t.jsxs(At,{children:[t.jsx(Gt,{children:t.jsx(Rt,{src:k})}),t.jsxs(It,{children:[t.jsxs(Mt,{children:[t.jsx(C,{children:"<"}),"Skills",t.jsx(C,{children:">"})]}),t.jsx(Ht,{children:Ft.map((n,s)=>t.jsxs(Dt,{children:[n.img&&t.jsx("img",{height:34,src:n.img}),t.jsxs(Et,{children:["#",n.title]})]},s))})]})]})}function Nt(){return t.jsxs(t.Fragment,{children:[t.jsx(Ct,{}),t.jsx(W,{}),t.jsx(Pt,{}),t.jsx(Wt,{})]})}Nt.displayName="HomePage";export{Nt as Component};
+`,Ft=[{title:"expressjs",img:""},{title:"git",img:""},{title:"react",img:""},{title:"rest-api",img:""},{title:"react-native",img:""},{title:"json",img:""},{title:"javascript",img:""},{title:"ant-design",img:""},{title:"nodejs",img:""},{title:"full-stack",img:""},{title:"scss",img:""},{title:"typescript",img:""},{title:"slack",img:""},{title:"swagger",img:""},{title:"redux",img:""},{title:"vue",img:""},{title:"docker",img:""},{title:"mongodb",img:""},{title:"postgresql",img:""},{title:"nextjs",img:""},{title:"typeorm",img:""},{title:"mysql",img:""},{title:"materialui",img:""},{title:"sass",img:""},{title:"styled-component",img:""},{title:"github",img:""}];function Wt(){return t.jsxs(At,{children:[t.jsx(Gt,{children:t.jsx(Rt,{src:k})}),t.jsxs(It,{children:[t.jsxs(Dt,{children:[t.jsx(C,{children:"<"}),"Skills",t.jsx(C,{children:">"})]}),t.jsx(Mt,{children:Ft.map((n,s)=>t.jsxs(Ht,{children:[n.img&&t.jsx("img",{height:34,src:n.img}),t.jsxs(Et,{children:["#",n.title]})]},s))})]})]})}function Nt(){return t.jsxs(t.Fragment,{children:[t.jsx(Ct,{}),t.jsx(W,{}),t.jsx(Pt,{}),t.jsx(Wt,{})]})}Nt.displayName="HomePage";export{Nt as Component};

@@ -1,0 +1,1 @@
+import{j as t}from"./main-DT7U8dsK.js";function n(){return t.jsxs("div",{style:{textAlign:"center",marginTop:"30px"},children:[t.jsx("span",{style:{color:"#00e990"},children:"Contacts"})," Content in progress..."]})}n.displayName="ContactsPage";export{n as Component};
