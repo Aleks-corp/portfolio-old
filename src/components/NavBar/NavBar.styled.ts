@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "../../assets/base.css";
-import { NavLink as BaseNavLink } from "react-router-dom";
+// import { NavLink as BaseNavLink } from "react-router-dom";
 import { devices } from "../../constants/breakpoints";
 
 export const List = styled.ul`
@@ -28,7 +28,7 @@ export const Item = styled.li`
   background-color: transparent;
 `;
 
-export const NavLink = styled(BaseNavLink)`
+export const NavLink = styled.a`
   position: relative;
   display: inline-block;
   margin: 0 15px;

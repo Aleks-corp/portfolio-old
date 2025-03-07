@@ -10,7 +10,7 @@ const NavBar = () => {
         {NAV_LIST.length !== 0 &&
           NAV_LIST.map((item, index) => (
             <Item key={index}>
-              <NavLink to={item.path}>{item.title}</NavLink>
+              <NavLink href={item.path}>{item.title}</NavLink>
             </Item>
           ))}
       </List>
