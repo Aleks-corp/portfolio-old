@@ -1,4 +1,4 @@
-import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as S,b as z}from"./main-BJTjZi2t.js";const L=e.section`
+import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as S,b as z}from"./main-C0_ETz2N.js";const L=e.section`
   position: relative;
   width: 100%;
   height: 448px;
@@ -98,7 +98,7 @@ import{p as e,N as y,j as t,d as o,f as r,r as m,L as $,P as B,a as S,b as z}fro
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
-`;const k="/portfolio/assets/aboutBG-dlcneVBX.svg",F="/portfolio/assets/photo-BhQO9ybq.webp";function W(){return t.jsxs(L,{id:"about",children:[t.jsxs(T,{children:[t.jsx(P,{}),t.jsx(A,{width:"100%",height:"100%",src:k})]}),t.jsx(G,{width:"384px",height:"541px",src:F}),t.jsxs(R,{children:[t.jsxs(I,{children:[t.jsx(f,{children:"<"}),"About /",t.jsx(f,{children:">"})]}),t.jsxs(D,{children:[t.jsx(u,{children:"“"}),t.jsxs(M,{children:["Hey there! I'm ",t.jsx(H,{children:"Oleksandr Haran"}),", web developer from Ukraine with a passion for solving tricky problems. I'm comfortable working on both front-end and back-end development"," ",t.jsx(E,{to:"/about",children:"Learn more..."})]}),t.jsx(u,{children:"“"})]})]})]})}const N=e.section`
+`;const k="/portfolio/assets/aboutBG-dlcneVBX.svg",F="/portfolio/assets/photo-BhQO9ybq.webp";function W(){return t.jsxs(L,{id:"about",children:[t.jsxs(T,{children:[t.jsx(P,{}),t.jsx(A,{width:"100%",height:"100%",src:k})]}),t.jsx(G,{width:"384px",height:"500px",src:F}),t.jsxs(R,{children:[t.jsxs(I,{children:[t.jsx(f,{children:"<"}),"About /",t.jsx(f,{children:">"})]}),t.jsxs(D,{children:[t.jsx(u,{children:"“"}),t.jsxs(M,{children:["Hey there! I'm ",t.jsx(H,{children:"Oleksandr Haran"}),", web developer from Ukraine with a passion for solving tricky problems. I'm comfortable working on both front-end and back-end development"," ",t.jsx(E,{to:"/about",children:"Learn more..."})]}),t.jsx(u,{children:"“"})]})]})]})}const N=e.section`
   object-fit: cover;
   /* overflow: hidden; */
 `,J=e.div`
