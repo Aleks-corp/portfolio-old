@@ -32,7 +32,7 @@ function App() {
         ],
       },
     ],
-    { basename: "/" }
+    { basename: "/portfolio" }
   );
   return <RouterProvider router={router} />;
 }
