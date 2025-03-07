@@ -14,12 +14,12 @@ import {
 } from "./ProjectSection.styled";
 import Dashboard from "../../assets/photo-projects/Dashboard.jpg";
 import DrinkMaster from "../../assets/photo-projects/drink-master.jpg";
-import CarRent from "../../assets/photo-projects/car-rent-2.jpg";
+import DesignLab from "../../assets/photo-projects/designlab.png";
 import Filmoteka from "../../assets/photo-projects/filmoteka.jpg";
 
 export function ProjectSection() {
   return (
-    <Project>
+    <Project id="project">
       <ProjectContainer>
         <ProjectBG $left />
         <ProjectBG />
@@ -47,7 +47,7 @@ export function ProjectSection() {
             <ProjectItemTitle>DrinkMaster Website</ProjectItemTitle>
             <ProjectItemTextWrapper>
               <ProjectItemText>React</ProjectItemText>
-              <ProjectItemText>Redux-toolkit</ProjectItemText>
+              <ProjectItemText>Redux</ProjectItemText>
               <ProjectItemText>NodeJs</ProjectItemText>
               <ProjectItemText>Express</ProjectItemText>
               <ProjectItemText>Mongoose</ProjectItemText>
@@ -70,13 +70,16 @@ export function ProjectSection() {
           </ProjectItem>
           <ProjectItem>
             <ProjectImgWrapper>
-              <ProjectImage width={600} src={CarRent} />
+              <ProjectImage width={600} src={DesignLab} />
             </ProjectImgWrapper>
-            <ProjectItemTitle>Car Rent Website</ProjectItemTitle>
+            <ProjectItemTitle>Design Lab App</ProjectItemTitle>
             <ProjectItemTextWrapper>
               <ProjectItemText>React</ProjectItemText>
-              <ProjectItemText>Redux-toolkit</ProjectItemText>
-              <ProjectItemText>Styled-components</ProjectItemText>
+              <ProjectItemText>Redux</ProjectItemText>
+              <ProjectItemText>SASS</ProjectItemText>
+              <ProjectItemText>NodeJs</ProjectItemText>
+              <ProjectItemText>ExpressJs</ProjectItemText>
+              <ProjectItemText>MongoDB</ProjectItemText>
             </ProjectItemTextWrapper>
           </ProjectItem>
         </ProjectList>

@@ -18,7 +18,7 @@ import Photo from "../../assets/photo.webp";
 
 export function AboutSection() {
   return (
-    <About>
+    <About id="about">
       <AboutBGThumb>
         <PhotoElipse />
         <BGImg width={"100%"} height={"100%"} src={BG} />
