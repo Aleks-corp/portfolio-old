@@ -1,30 +1,30 @@
-// import { LuGithub } from "react-icons/lu";
-// import { PiFacebookLogo } from "react-icons/pi";
-// import { PiLinkedinLogo } from "react-icons/pi";
-// import { LuMail } from "react-icons/lu";
-import Spline from "@splinetool/react-spline";
+import { LuGithub } from "react-icons/lu";
+import { PiFacebookLogo } from "react-icons/pi";
+import { PiLinkedinLogo } from "react-icons/pi";
+import { LuMail } from "react-icons/lu";
+// import Spline from "@splinetool/react-spline";
 import {
   Hero,
   HeroContainer,
-  // HeroText,
-  // HeroTextBold,
-  // HeroTextAccent,
-  // SocialContainer,
-  // SocialLink,
-  // SocialLine,
-  // MailContainer,
-  // MailText,
-  // MailLine,
-  // HeroBox,
+  HeroText,
+  HeroTextBold,
+  HeroTextAccent,
+  SocialContainer,
+  SocialLink,
+  SocialLine,
+  MailContainer,
+  MailText,
+  MailLine,
+  HeroBox,
 } from "./HeroSection.styled";
-// import { HeroGradient } from "../HeroGradient/HeroGradient";
+import { HeroGradient } from "../HeroGradient/HeroGradient";
 export function HeroSection() {
   return (
     <Hero>
       <HeroContainer>
         <h1 className="hidden">Portfolio</h1>
-        {/* <HeroGradient /> */}
-        {/* <HeroBox>
+        <HeroGradient />
+        <HeroBox>
           <HeroText>Hello World</HeroText>
           <HeroText>
             I&apos;m{" "}
@@ -57,10 +57,9 @@ export function HeroSection() {
             </SocialLink>
             <MailLine />
           </MailContainer>
-        </HeroBox> */}
-
-        <Spline scene="https://prod.spline.design/Ivn0cF115tfvxxPM/scene.splinecode" />
+        </HeroBox>
       </HeroContainer>
+      {/* <Spline scene="https://prod.spline.design/Ivn0cF115tfvxxPM/scene.splinecode" /> */}
     </Hero>
   );
 }
